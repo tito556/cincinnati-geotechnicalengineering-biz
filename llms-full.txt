@@ -1,0 +1,62 @@
+# Cincinnati
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Bearing Capacity Analysis](https://cincinnati.geotechnicalengineering.biz/bearing-capacity-analysis/)
+- [Debris Flow Analysis](https://cincinnati.geotechnicalengineering.biz/debris-flow-analysis/)
+- [Differential Settlement Analysis](https://cincinnati.geotechnicalengineering.biz/differential-settlement-analysis/)
+- [Direct Shear](https://cincinnati.geotechnicalengineering.biz/direct-shear/)
+- [Dynamic Compaction Design](https://cincinnati.geotechnicalengineering.biz/dynamic-compaction-design/)
+- [Electrical Resistivity Ves](https://cincinnati.geotechnicalengineering.biz/electrical-resistivity-ves/)
+- [Expansive Soil Evaluation](https://cincinnati.geotechnicalengineering.biz/expansive-soil-evaluation/)
+- [Factor Safety](https://cincinnati.geotechnicalengineering.biz/factor-safety/)
+- [Field Density](https://cincinnati.geotechnicalengineering.biz/field-density/)
+- [Field Vane Shear](https://cincinnati.geotechnicalengineering.biz/field-vane-shear/)
+- [Flat Dilatometer](https://cincinnati.geotechnicalengineering.biz/flat-dilatometer/)
+- [Flexible Pavement Design](https://cincinnati.geotechnicalengineering.biz/flexible-pavement-design/)
+- [Foundations](https://cincinnati.geotechnicalengineering.biz/foundations/)
+- [Geocell Design](https://cincinnati.geotechnicalengineering.biz/geocell-design/)
+- [Geogrid Specification](https://cincinnati.geotechnicalengineering.biz/geogrid-specification/)
+- [Geophysics](https://cincinnati.geotechnicalengineering.biz/geophysics/)
+- [Geotechnical Design Deep Excavations](https://cincinnati.geotechnicalengineering.biz/geotechnical-design-deep-excavations/)
+- [Geotechnical Road Drainage](https://cincinnati.geotechnicalengineering.biz/geotechnical-road-drainage/)
+- [Geotextile Specification](https://cincinnati.geotechnicalengineering.biz/geotextile-specification/)
+- [Ground Improvement](https://cincinnati.geotechnicalengineering.biz/ground-improvement/)
+- [Ground Penetrating Radar](https://cincinnati.geotechnicalengineering.biz/ground-penetrating-radar/)
+- [Grouting Design](https://cincinnati.geotechnicalengineering.biz/grouting-design/)
+- [In Situ Testing](https://cincinnati.geotechnicalengineering.biz/in-situ-testing/)
+- [Investigation](https://cincinnati.geotechnicalengineering.biz/investigation/)
+- [Jet Grouting Design](https://cincinnati.geotechnicalengineering.biz/jet-grouting-design/)
+- [Laboratory](https://cincinnati.geotechnicalengineering.biz/laboratory/)
+- [Landslide Assessment](https://cincinnati.geotechnicalengineering.biz/landslide-assessment/)
+- [Lime Cement Stabilization](https://cincinnati.geotechnicalengineering.biz/lime-cement-stabilization/)
+- [Menard Pressuremeter](https://cincinnati.geotechnicalengineering.biz/menard-pressuremeter/)
+- [Micropile Design](https://cincinnati.geotechnicalengineering.biz/micropile-design/)
+- [Oedometer Consolidation](https://cincinnati.geotechnicalengineering.biz/oedometer-consolidation/)
+- [Organic Soil Management](https://cincinnati.geotechnicalengineering.biz/organic-soil-management/)
+- [Plate Load](https://cincinnati.geotechnicalengineering.biz/plate-load/)
+- [Porchet Double Ring Infiltrometer](https://cincinnati.geotechnicalengineering.biz/porchet-double-ring-infiltrometer/)
+- [Prefabricated Vertical Drain](https://cincinnati.geotechnicalengineering.biz/prefabricated-vertical-drain/)
+- [Preloading Design](https://cincinnati.geotechnicalengineering.biz/preloading-design/)
+- [Preloading Surcharge Design](https://cincinnati.geotechnicalengineering.biz/preloading-surcharge-design/)
+- [Raft Mat Foundation Design](https://cincinnati.geotechnicalengineering.biz/raft-mat-foundation-design/)
+- [Retaining Wall Design](https://cincinnati.geotechnicalengineering.biz/retaining-wall-design/)
+- [Road Embankment Design](https://cincinnati.geotechnicalengineering.biz/road-embankment-design/)
+- [Roadway](https://cincinnati.geotechnicalengineering.biz/roadway/)
+- [Seismic](https://cincinnati.geotechnicalengineering.biz/seismic/)
+- [Seismic Microzonation](https://cincinnati.geotechnicalengineering.biz/seismic-microzonation/)
+- [Settlement Analysis](https://cincinnati.geotechnicalengineering.biz/settlement-analysis/)
+- [Shallow Foundation Design](https://cincinnati.geotechnicalengineering.biz/shallow-foundation-design/)
+- [Shear Wave Velocity](https://cincinnati.geotechnicalengineering.biz/shear-wave-velocity/)
+- [Site Response Analysis](https://cincinnati.geotechnicalengineering.biz/site-response-analysis/)
+- [Slope Failure Analysis](https://cincinnati.geotechnicalengineering.biz/slope-failure-analysis/)
+- [Slope Stability Analysis](https://cincinnati.geotechnicalengineering.biz/slope-stability-analysis/)
+- [Slope Stabilization Design](https://cincinnati.geotechnicalengineering.biz/slope-stabilization-design/)
+
+## Contact
+- Website: https://cincinnati.geotechnicalengineering.biz/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
