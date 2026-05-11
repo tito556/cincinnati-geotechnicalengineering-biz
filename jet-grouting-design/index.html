@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The most common mistake we see in Cincinnati is assuming a uniform treatment diameter across the site. Contractors often use a single set of jet grouting parameters for the entire project, ignoring the clay lenses and sand pockets that alternate unpredictably in the glacial till. The result is under-treated zones with strengths below 1 MPa, leading to differential settlements that crack the structure. On a recent highway bridge abutment, we had to re-treat 12 columns because the initial design did not account for a 2 m-thick clay seam at 8 m depth. A proper jet <a href="../grouting-design/" data-interlink="1">grouting design</a> must incorporate site-specific stratigraphy, not generic values from the literature.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the typical treatment diameter for jet grouting in Cincinnati's glacial soils?</summary><p>In granular outwash deposits common along the Ohio River, diameters range from 1.5 to 2.2 m. In the stiff glacial till or clay lenses, diameters drop to 0.8–1.4 m. The actual value depends on the specific energy applied and the soil erodibility index determined from site-specific borings.</p></details><details><summary>How much does a jet grouting design study cost for a typical building project in Cincinnati?</summary><p>For a mid-size project with 6–10 borings, laboratory testing, and a design report, the cost ranges from US$1,510 to US$6,650. The final price depends on the number of test columns, the need for 3D modeling of buried valleys, and the level of quality control required.</p></details><details><summary>Does jet grouting work in the stiff glacial till found in Cincinnati's hillsides?</summary><p>Yes, but the treatment diameter is smaller (typically 0.8–1.1 m) due to the high plasticity and low erodibility of the till. We compensate by reducing the rod withdrawal rate and increasing the grout pressure to 35–40 MPa. Pre-drilling with a rock bit may be needed if boulders are present.</p></details><details><summary>What quality control tests are performed after jet grouting?</summary><p>We excavate test columns to measure actual diameter and continuity, take core samples for unconfined compressive strength (target 2–8 MPa at 28 days), and conduct falling-head permeability tests (target below 1×10⁻⁶ cm/s). For critical structures, we also perform cross-hole sonic logging to verify integrity.</p></details><details><summary>How does jet grouting compare to deep soil mixing for underpinning in Cincinnati?</summary><p>Jet grouting is more effective in layered soils with cobbles and boulders because it uses a high-velocity jet to erode and mix the soil in situ. Deep soil mixing requires auger penetration, which can be obstructed by the large cobbles common in Ohio River terrace deposits. Jet grouting also achieves lower permeability, which is advantageous in dewatering applications.</p></details>
             </section>
 

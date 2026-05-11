@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>ASCE 7-16 requires that embankments in Cincinnati's Seismic Design Category B still consider liquefaction potential in loose saturated fills. The Ohio River valley has pockets of loose sand that can compact differentially during a seismic event. We evaluate the factor of safety against deep-seated failure using Bishop's simplified method, targeting a minimum FS of 1.5 for static conditions and 1.1 for seismic. For fills near the Mill Creek or Little Miami River floodplains, we also check for seepage-induced piping. A poorly designed embankment here can lead to road closures that cost the city millions in repairs, so we take the stability analysis seriously.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How much does a road embankment design study cost in Cincinnati?</summary><p>For a typical roadway fill of 2,000 to 10,000 cubic yards, the geotechnical investigation and design package ranges between US$1,180 and US$4,430. The final cost depends on the number of borings, lab tests, and the complexity of the <a href="../slope-stability-analysis/" data-interlink="1">slope stability analysis</a>.</p></details><details><summary>What soil conditions in Cincinnati affect embankment design the most?</summary><p>The main challenge is the variable glacial till. You can have stiff clay in one borehole and loose sand with gravel 50 feet away. We also watch for old stream channels filled with soft alluvium. Each requires different compaction effort and drainage design.</p></details><details><summary>Do I need a seismic analysis for a road embankment in Cincinnati?</summary><p>Yes, if the fill exceeds 20 feet in height or is located within 500 feet of a known fault line. ASCE 7-16 requires a pseudo-static analysis for Seismic Design Category B. We also check liquefaction potential in saturated loose sands near the Ohio River.</p></details>
             </section>
 

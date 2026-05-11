@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>We mobilize a pugmill mixer and a 10-ton silo truck to job sites across Cincinnati. The pugmill blends dry stabilizer with the soil at a controlled rate, then a water truck adds moisture to reach optimum compaction. If the mix is too dry, the reaction stalls and strength never develops. Too wet and the soil becomes unstable under rollers. We monitor moisture content in real time using a nuclear density gauge. In one project near the Cincinnati Zoo, the clay was so plastic that the lime took 48 hours to start reacting. We had to adjust the water schedule and extend the mellowing period. That kind of site-specific adjustment only comes from experience with local soils.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How does lime stabilization differ from cement stabilization for Cincinnati soils?</summary><p>Lime reacts chemically with clay minerals to reduce plasticity and shrink-swell potential. Cement hydrates to form a rigid matrix that increases compressive strength. For Cincinnati's fat clays (PI above 35), lime is preferred first to control plasticity. Cement works better for silts and sandy soils where rapid strength gain is needed.</p></details><details><summary>What is the typical cost range for lime and cement stabilization in Cincinnati?</summary><p>The typical cost range is between US$940 and US$2,870 per project, depending on treatment depth, soil volume, stabilizer dosage, and haul distance. We provide a detailed quote after reviewing the <a href="../soil-classification/" data-interlink="1">soil classification</a> report and site access conditions.</p></details><details><summary>How long does the stabilization process take before the soil can support construction loads?</summary><p>Lime-treated soils usually require a 3-7 day mellowing period before compaction, then 7-14 days to reach 70% of design strength. Cement-treated soils can support light traffic within 24-48 hours. We always verify strength with <a href="../unconfined-compression/" data-interlink="1">unconfined compression tests</a> before allowing full construction loads.</p></details>
             </section>
 

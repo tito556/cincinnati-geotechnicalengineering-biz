@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Many times we see drainage designs in Cincinnati that assume a uniform infiltration rate across the entire lot. That assumption fails when you hit a clay lens from the Fairview formation. One neighbor gets a 2 cm/hr rate; another, 0.1 cm/hr. The risk: a basin that never drains or a septic field that fails in the first wet season. Infiltration testing at multiple depths and locations reduces that gamble. We also flag cases where the seasonal high water table sits above the test depth — that invalidates any downward flow assumption and calls for a different strategy. Documenting the exact test conditions and soil profile is part of every report we deliver.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How many infiltration test points are needed for a residential lot in Cincinnati?</summary><p>For a typical 0.5-acre lot, we recommend at least two test points at different depths. If the soil changes between the topsoil and the subgrade, a third point at the interface helps capture the limiting layer. Local stormwater manuals often require one test per 500 m² of contributing drainage area.</p></details><details><summary>What is the difference between the Porchet and double-ring methods?</summary><p>The double-ring method uses concentric rings to isolate vertical flow and minimize lateral spreading, giving a more accurate Ksat for design. The Porchet test is simpler and quicker — a single borehole with no outer ring — but it measures combined vertical and radial flow, which can overestimate rates in clayey soils. Choose double-ring for regulatory submittals; Porchet for preliminary screening.</p></details><details><summary>Does Cincinnati's clay-rich soil affect infiltration test results?</summary><p>Yes, significantly. Glacial till and weathered shale produce Ksat values often below 0.5 cm/hr. In those conditions, the double-ring test may take 4 to 6 hours to reach steady-state. We pre-saturate the soil for 24 hours when possible, because dry clays swell and give artificially low readings. The Fairview formation, in particular, can fool you into thinking the soil drains well until it wets up.</p></details><details><summary>How much does an infiltration test cost in Cincinnati?</summary><p>A typical double-ring infiltrometer test runs between US$270 and US$410 per point, depending on depth and access. Porchet tests are slightly lower, around US$220 to US$350. For multiple points on the same site, the per-point price drops. We provide a flat rate quote after a site walk-through.</p></details><details><summary>Can infiltration testing be done during winter in Cincinnati?</summary><p>Technically yes, but frozen ground and snow cover make results unreliable. The Ohio EPA recommends testing between April and October when the soil is thawed and at field moisture. If you need winter testing, we can excavate a test pit and install a temporary shelter to keep the soil from freezing during the test duration.</p></details>
             </section>
 

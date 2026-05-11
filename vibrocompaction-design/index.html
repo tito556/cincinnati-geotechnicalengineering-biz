@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -210,6 +219,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Our services</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>We provide a full suite of services around vibrocompaction design in Cincinnati. Each one is tailored to the site's soil conditions and project requirements.</p>
                 <style>.servicios-grid a.servicio-link:hover h3{color:#8B5CF6}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid a.servicio-link:hover{border-color:#8B5CF6;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#8B5CF6;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}</style><div class="servicios-grid"><div class="servicio"><h3>Pre-treatment Soil Investigation</h3><p>SPT borings, gradation analysis, and dilatometer testing to classify the soil and determine the optimal probe spacing and vibration parameters.</p></div><div class="servicio"><h3>Vibrocompaction Design & Modeling</h3><p>Customized probe pattern design, frequency selection, and water backfill rates based on the soil profile. We provide a densification curve and expected modulus gain.</p></div><div class="servicio"><h3>Post-treatment Verification</h3><p>CPT soundings, <a href="../plate-load/" data-interlink="1">plate load tests</a>, or MASW to confirm that the treated ground meets the project's bearing capacity and settlement criteria.</p></div></div>
             </section>
@@ -221,6 +232,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Coverage in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <link rel="stylesheet" href="/css/leaflet-629c.css"/>
                 <div id="mapa-ciudad"></div>
                 <script src="/js/leaflet-629c.js"></script>

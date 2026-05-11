@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
 .cta .contacto-line a { color: white; text-decoration: underline; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
     border-top: 1px solid rgba(255,255,255,0.04);
 }
 tr:nth-child(even) { background: #f8fafc; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -122,21 +127,23 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
 footer a { color: rgba(255,255,255,0.85); }
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-    .content-area { flex-direction: column; }
+    
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
 .sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat.open + .sub { display: flex; }
-    main { padding: 1.5rem; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
     border-left: 2px solid transparent;
 }
 .servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-* { margin:0; padding:0; box-sizing:border-box; }</style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Critical ground factors in Cincinnati</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The glacial till in Cincinnati contains discontinuous silt lenses that act as capillary barriers, trapping water within the active zone. When a road cut exposes these lenses, seepage emerges at the face and rapidly erodes the shoulder, leading to tension cracks that propagate into the pavement. In our experience, ignoring lateral drainage in residential street widening projects near Mount Adams or Price Hill causes recurrent slope failures within two to three wet seasons. We have documented cases where perched water only 1.2 m below the surface reduced the factor of safety from 1.5 to 0.95, turning a stable fill into a progressive slide. A properly designed geotechnical road drainage system intercepts that water before it mobilizes the soil mass.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}</style></head>
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What are the most common geotechnical road drainage issues in Cincinnati?</summary><p>The primary issue is perched water trapped above the low-permeability glacial till and weathered shale. This causes pavement heave during freeze-thaw cycles and shallow slope failures along road cuts. We also see clogged edge drains due to fine silt migration from the Kope Formation soils.</p></details><details><summary>What is the typical cost range for a geotechnical road drainage study in Cincinnati?</summary><p>For a standard road segment (2-4 lane miles) including field testing, hydraulic analysis, and design recommendations, the cost ranges from US$790 to US$2,390. Larger projects with multiple drain types and slope stability checks fall at the upper end. The final quote depends on site access and the number of borings required.</p></details><details><summary>Which ASTM standards apply to drainage geotextiles in Ohio road projects?</summary><p>AASHTO M288-21 is the primary specification for geotextile selection, with ASTM D4751 for apparent opening size and ASTM D4491 for permittivity. For drainage aggregate, we follow AASHTO M43 and ASTM D448. All testing is performed under ASTM D1586 for <a href="../soil-classification/" data-interlink="1">soil classification</a> and ASTM D2434 for permeability.</p></details><details><summary>How does Cincinnati's frost depth affect road drainage design?</summary><p>The design frost depth in Hamilton County is 0.9 to 1.2 m per IBC 2018. Drainage outlets must be placed below this depth to prevent ice blockage. We also recommend a capillary break layer of clean, open-graded aggregate beneath the pavement to stop frost heave from drawing moisture upward into the subgrade.</p></details>
             </section>
 
